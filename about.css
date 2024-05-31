@@ -121,8 +121,9 @@
   }
 
   .about-me p {
-    font-size: 0.9rem;
-    text-align: center;
+    margin: 7px -6px 140px 0px;
+    font-size: 14px;
+    line-height: 1.6;
   }
 
   .experience-summary {
@@ -184,7 +185,6 @@
 
   .about-me p {
     font-size: 0.9rem;
-    text-align: center;
   }
 
   .experience-summary {
