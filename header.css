@@ -1,0 +1,92 @@
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c;
+}
+
+header .logo {
+  font-size: 2em;
+  color: var(--background-color);
+  margin-bottom: 175px;
+  text-decoration: none;
+}
+.logo {
+  margin: 0 0 0 162px;
+}
+.logo a {
+  text-decoration: none;
+  color: var(--background-color);
+}
+/* nav */
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0px 131px 0 -14px;
+  margin-bottom: 175px;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+.download-cv {
+  background-color: var(--background-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .logo {
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-end;
+    margin: -32px 0 0 226px;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .download-cv {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  header .logo {
+    font-size: 1.5em;
+  }
+
+  nav ul li a {
+    font-size: 0.9em;
+  }
+
+  .download-cv {
+    padding: 6px 12px;
+    font-size: 0.8em;
+  }
+}

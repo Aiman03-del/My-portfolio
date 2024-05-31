@@ -1,0 +1,134 @@
+/* projects */
+.master-chef {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.learn-with-siaam {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+}
+.master-chef img {
+  width: 450px;
+  height: 350px;
+  flex: 0 0 auto;
+  margin-left: 145px;
+}
+.learn-with-siaam img {
+  width: 450px;
+  height: 350px;
+  margin-right: 58px;
+}
+
+.master-chef .content {
+  flex: 1;
+  margin-left: 15px;
+  padding: 40px;
+}
+.learn-with-siaam .content {
+  flex: 1;
+  display: flex;
+  margin-left: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+}
+.master-chef h3 {
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.learn-with-siaam h3 {
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.master-chef h2 {
+  font-size: 45px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.learn-with-siaam h2 {
+  font-size: 45px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.master-chef p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #aaa;
+}
+.learn-with-siaam p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #aaa;
+}
+
+.content a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+.content button {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--background-color);
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  .master-chef,
+  .learn-with-siaam {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .master-chef img,
+  .learn-with-siaam img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .master-chef .content,
+  .learn-with-siaam .content {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .master-chef h2,
+  .learn-with-siaam h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .master-chef,
+  .learn-with-siaam {
+    margin-top: 30px;
+  }
+
+  .master-chef .content,
+  .learn-with-siaam .content {
+    padding: 10px;
+  }
+
+  .master-chef h2,
+  .learn-with-siaam h2 {
+    font-size: 25px;
+  }
+
+  .master-chef h3,
+  .learn-with-siaam h3 {
+    font-size: 18px;
+  }
+
+  .master-chef p,
+  .learn-with-siaam p {
+    font-size: 14px;
+  }
+}

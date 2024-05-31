@@ -1,0 +1,82 @@
+/* portfolio */
+.portfolio {
+  margin: -20px 0 0 0;
+  color: fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.portfolio h1 {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+.portfolio p {
+  font-size: 1em;
+  color: #aaa;
+}
+.designs {
+  text-align: center;
+  margin: -20px 0px 39px 39px;
+  color: #6b6b6b;
+}
+.designs button {
+  background-color: #444;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  padding: 15px 30px;
+  margin: 15px;
+  cursor: pointer;
+}
+.designs button.active {
+  background-color: var(--background-color);
+}
+.designs button:hover {
+  background-color: var(--background-color);
+}
+
+.designs button:not(:last-child) {
+  margin-right: 30px; /* Adjust this value as needed for spacing */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .portfolio h1 {
+    font-size: 2em;
+  }
+
+  .portfolio p {
+    font-size: 0.9em;
+  }
+
+  .designs {
+    margin: -10px 0px 30px 0;
+  }
+
+  .designs button {
+    padding: 10px 20px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio h1 {
+    font-size: 1.5em;
+  }
+
+  .portfolio p {
+    font-size: 0.8em;
+  }
+
+  .designs {
+    margin: -10px 0px 20px 0;
+  }
+
+  .designs button {
+    padding: 8px 16px;
+    margin: 8px;
+  }
+
+  .designs button:not(:last-child) {
+    margin-right: 15px; /* Adjust this value as needed for spacing */
+  }
+}

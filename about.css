@@ -1,0 +1,234 @@
+/* about */
+.about {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 135px;
+  padding: 20px;
+}
+.about-me {
+  margin: 0 0 0 140px;
+  max-width: 60%;
+}
+
+.about-me h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.about-me p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.experience-summary {
+  font-weight: 100;
+  margin: 0 104px 0 0;
+  text-align: center;
+}
+
+.stars {
+  font-size: 1.2rem;
+  color: orange;
+  margin-right: 10px;
+}
+
+.years h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 10px 0 5px 0;
+}
+
+.years p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.experience-section {
+  width: 1240px;
+  height: 505px;
+  margin: 70px 0px 0px -20px;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2d2531, #342c22);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.experience-content {
+  max-width: 50%;
+  padding: 60px;
+}
+
+.experience-content h2 {
+  font-size: 1.2em;
+  color: #bbb;
+}
+
+.experience-content h1 {
+  font-size: 3.5em;
+  margin: 10px 0;
+}
+
+.experience-content p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.experience-list {
+  max-width: 40%;
+  padding: 50px;
+}
+
+.experience-item {
+  margin-bottom: 30px;
+}
+
+.experience-item span {
+  display: block;
+  padding-bottom: 20px;
+}
+.company {
+  font-size: 1em;
+  margin-left: 200px;
+  margin-bottom: -38px;
+  color: #bbb;
+}
+.experience-years {
+  font-size: 1em;
+  color: #bbb;
+}
+
+.experience-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .about {
+    margin-top: 50px;
+  }
+
+  .about-me h1 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .about-me p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .experience-summary {
+    margin: 0;
+    text-align: center;
+  }
+
+  .years h2 {
+    font-size: 1.2rem;
+  }
+
+  .years p {
+    font-size: 0.8rem;
+  }
+
+  .experience-section {
+    padding: 0px;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .experience-content {
+    padding: 20px;
+  }
+
+  .experience-content h1 {
+    font-size: 2em;
+  }
+
+  .experience-content p {
+    font-size: 1em;
+  }
+
+  .experience-list {
+    padding: 20px;
+  }
+
+  .company,
+  .experience-years {
+    font-size: 0.8em;
+    margin: -15px 0px;
+  }
+
+  .experience-title {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    margin-top: 50px;
+  }
+
+  .about-me h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-me p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .experience-summary {
+    margin: -30px 45px -285px -150px;
+    text-align: center;
+  }
+
+  .years h2 {
+    font-size: 1.2rem;
+  }
+
+  .years p {
+    font-size: 0.8rem;
+  }
+
+  .experience-section {
+    height: fit-content;
+    width: fit-content;
+    margin: 125px 0px 0 0;
+  }
+
+  .experience-content {
+    padding: 20px;
+  }
+
+  .experience-content h1 {
+    font-size: 2em;
+  }
+
+  .experience-content p {
+    font-size: 1em;
+  }
+
+  .experience-list {
+    padding: 20px;
+  }
+
+  .company,
+  .experience-years {
+    font-size: 0.8em;
+    margin: -15px 0px;
+  }
+
+  .experience-title {
+    font-size: 1.2em;
+  }
+}
