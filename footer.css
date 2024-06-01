@@ -70,17 +70,6 @@ footer {
   .footer-links a {
     font-size: 18px;
   }
-  .social-icons a {
-    font-size: 20px;
-    margin: auto 10px;
-  }
-  .footer-text {
-    font-size: 14px;
-    padding: 25px;
-    margin: auto;
-    width: fit-content;
-    height: fit-content;
-  }
 }
 
 @media (max-width: 480px) {
@@ -89,21 +78,25 @@ footer {
     margin: 20px 0 10px 0;
   }
   .footer-links {
-    flex-direction: column;
+    flex-direction: row;
     gap: 5px;
     margin: 10px 0;
   }
   .footer-links a {
-    font-size: 16px;
+    font-size: 12px;
+  }
+  .social-icons {
+    margin: 20px auto;
   }
   .social-icons a {
-    font-size: 18px;
-    margin: 5px;
+    font-size: 12px;
+    margin: 0 5px;
+    text-align: center;
   }
   .footer-text {
-    font-size: 14px;
-    padding: 25px;
-    margin: auto;
+    font-size: 10px;
+    padding: 15px;
+    margin: -19px auto;
     width: fit-content;
     height: fit-content;
   }

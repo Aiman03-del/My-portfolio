@@ -1,7 +1,7 @@
 /* portfolio */
 .portfolio {
   margin: -20px 0 0 0;
-  color: fff;
+  color: #fff;
   text-align: center;
   padding: 20px 0;
 }
@@ -35,7 +35,7 @@
 }
 
 .designs button:not(:last-child) {
-  margin-right: 30px; /* Adjust this value as needed for spacing */
+  margin-right: 30px;
 }
 
 /* Responsive styles */

@@ -112,12 +112,12 @@
   }
 
   .intro {
-    margin: 25px 25px;
-    max-width: 100%;
+    margin: 5px;
+    max-width: fit-content;
   }
 
   .intro h1 {
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
 
   .intro h2 {
@@ -125,10 +125,7 @@
   }
 
   .buttons {
-    background-color: #1c1c1c;
     flex-direction: column;
-    max-width: 200px;
-    height: 0;
   }
 
   .buttons .portfolio-btn,
@@ -138,23 +135,22 @@
   }
 
   .social-links {
-    margin: 70px 50px;
-  }
-
-  .profile-pic img {
-    width: 100%;
-    max-width: 300px;
-    margin: 0px;
+    margin: 65px 100px;
   }
 
   .optional {
-    width: 703px;
-    height: 59px;
-    margin: -42px 0 0 -202px;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    transform: rotate(-0deg);
+    flex-direction: column;
   }
-
+  .optional-links {
+    display: flex;
+    flex-direction: column;
+  }
   .optional-links a:not(:last-child) {
-    margin-right: 10px;
+    margin-left: 170px;
   }
 }
 
@@ -171,10 +167,12 @@
     max-width: 150px;
     height: 32px;
     padding: 0px;
+    margin: auto;
   }
 
   .profile-pic img {
     width: 100%;
-    max-width: 300px;
+    max-width: fit-content;
+    margin: auto;
   }
 }

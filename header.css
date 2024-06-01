@@ -60,9 +60,9 @@ nav ul li a {
   }
 
   nav ul {
+    margin: -38px 0 0 250px;
     flex-direction: column;
-    align-items: flex-end;
-    margin: -32px 0 0 216px;
+    align-items: self-end;
   }
 
   nav ul li {

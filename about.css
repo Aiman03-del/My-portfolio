@@ -140,14 +140,10 @@
   }
 
   .experience-section {
-    padding: 0px;
     height: fit-content;
     width: fit-content;
     margin: auto;
-  }
-
-  .experience-content {
-    padding: 20px;
+    flex-direction: column;
   }
 
   .experience-content h1 {
@@ -156,10 +152,6 @@
 
   .experience-content p {
     font-size: 1em;
-  }
-
-  .experience-list {
-    padding: 20px;
   }
 
   .company,
@@ -175,9 +167,14 @@
 
 @media (max-width: 480px) {
   .about {
-    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-
+  .about-me {
+    margin: auto;
+  }
   .about-me h1 {
     font-size: 2rem;
     text-align: center;
@@ -188,7 +185,7 @@
   }
 
   .experience-summary {
-    margin: -30px 45px -285px -150px;
+    margin: 0 15px;
     text-align: center;
   }
 
@@ -200,18 +197,14 @@
     font-size: 0.8rem;
   }
 
-  .experience-section {
-    height: fit-content;
-    width: fit-content;
-    margin: 125px 0px 0 0;
-  }
-
   .experience-content {
-    padding: 20px;
+    margin: auto -50px;
+    text-align: start;
   }
 
   .experience-content h1 {
-    font-size: 2em;
+    font-size: 1em;
+    text-align: center;
   }
 
   .experience-content p {
@@ -219,7 +212,8 @@
   }
 
   .experience-list {
-    padding: 20px;
+    margin: initial;
+    padding: 15px;
   }
 
   .company,

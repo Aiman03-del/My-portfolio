@@ -104,16 +104,25 @@
   .learn-with-siaam h2 {
     font-size: 35px;
   }
+  .content button {
+    margin: auto;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--background-color);
+  }
 }
 
 @media (max-width: 480px) {
   .master-chef,
   .learn-with-siaam {
-    margin-top: 30px;
+    margin: auto;
   }
 
   .master-chef .content,
   .learn-with-siaam .content {
+    text-align: center;
     padding: 10px;
   }
 
@@ -130,5 +139,13 @@
   .master-chef p,
   .learn-with-siaam p {
     font-size: 14px;
+  }
+  .content button {
+    margin: auto;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--background-color);
   }
 }
